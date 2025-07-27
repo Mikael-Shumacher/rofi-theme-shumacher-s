@@ -1,0 +1,104 @@
+
+
+* {
+    font: "JetBrainsMono Nerd Font 12";
+    background-color: #1e1e2e83;
+    color: #c3fff7ff;
+	border-radius: 8px;
+}
+
+configuration{
+    show-icons: true;
+}
+
+window {
+    width: 500px;
+    height: 400px;
+    border: 2px;
+    border-color: #6184cfc2;
+    border-radius: 8px;
+    location: center;
+}
+
+mainbox {
+    padding:    12px;
+    border: 1px;
+    border-color: #cf6161c2;
+    border-radius: 8px;
+}
+
+inputbar {
+    border:         2px;
+    border-radius:  16px;
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ icon-search, entry];
+}
+
+icon-search {
+    expand:     false;
+    filename:   "search";
+    size: 28px;
+    background-color: transparent;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    placeholder: "Search";
+    border: 1px;
+    border-radius: 8px;
+    border-color: #6184cfc2;
+}
+
+
+message {
+    margin:             12px 0 0;
+    border-radius:      16px;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+
+element {
+    padding: 5px;
+    spacing: 5px;
+    border: 2px;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+element-icon {
+    size: 1.2em;
+    margin: 0px 5px 0px 0px;
+    background-color: transparent;
+
+}
+
+element-text {
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    color: inherit;
+    text-color: white;
+}
+
+element.selected {
+    background-color: #df2020d0;
+    border: 2px;
+    border-color: #1b5decff;
+    border-radius: 8px;
+}
+
+element.selected element-text {
+    background-color: transparent;
+    color: white;
+}
+
+element.selected element-icon {
+    background-color: transparent;
+}
