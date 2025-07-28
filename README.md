@@ -1,1 +1,3 @@
-# rofi-theme-shumacher-s
+# rofi-theme-shumacher's
+
+#
